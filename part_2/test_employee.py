@@ -15,7 +15,7 @@ class TestEmployee(unittest.TestCase):
         emp_2 = Employee('Sue','Smith',60000)
         
         #test employee email
-        self.assertEqual(emp_1.email, 'Corey.Schafer@email.com')
+        self.assertEqual(emp_1.email, 'Cory.Schafer@email.com')    # I MISSPELLED COREY TO CORY
         self.assertEqual(emp_2.email, 'Sue.Smith@email.com')
         
         #insert name change and retest
